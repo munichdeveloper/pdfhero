@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <div>
         <div className='flex m-3 md:m-5'>
-          <div className='flex items-center max-w-xs md:max-w-sm'>
+          <div className='flex items-center max-w-[8rem] sm:max-w-[30rem]'>
             <h3 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-4xl">
               Awesome data extraction from your PDF files.
             </h3>
@@ -66,7 +66,7 @@ export default function Home() {
           <div className='mx-3 md:mx-8'>
             <Separator orientation="vertical" />
           </div>
-          <div className='flex items-center max-w-xs md:max-w-sm'>
+          <div className='flex items-center max-w-[8rem] md:max-w-sm'>
             <h3 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-4xl">
               Awesome text editing of your PDF files.
             </h3>
