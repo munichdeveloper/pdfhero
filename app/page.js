@@ -26,7 +26,7 @@ export default function Home() {
             </h3>
           </div>
           <div className='mx-3 md:mx-8'>
-            <Separator orientation="v" />
+            <Separator orientation="vertical" />
           </div>
           <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'>
             {
@@ -64,7 +64,7 @@ export default function Home() {
             }
           </div>
           <div className='mx-3 md:mx-8'>
-            <Separator orientation="v" />
+            <Separator orientation="vertical" />
           </div>
           <div className='flex items-center max-w-xs md:max-w-sm'>
             <h3 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-4xl">

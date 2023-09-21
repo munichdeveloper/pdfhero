@@ -54,14 +54,15 @@ export default function Tile({ displayName, title, category, prompt, buttonText,
 
     async function submitEmail(event) {
         event.preventDefault();
-        fetch("https://hook.eu1.make.com/r9l55hsj7p9uxlrxums4fu4x6jo8iebl", {
+        fetch("https://hook.eu1.make.com/0t95ldotdtaygdl7o5ktqchra81d6qe4", {
             method: 'post',
             headers: {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
                 "fileUrl": storedFileUrl,
-                prompt
+                prompt,
+                email
             }),
         })
             .then(resp => {
