@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "checkJs": true,
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "jsx": "react"
   }
 }

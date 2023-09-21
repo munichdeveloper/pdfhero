@@ -1,0 +1,46 @@
+{
+    "data_extraction": [
+        {
+            "title": "Invoice",
+            "category": "data extraction",
+            "name": "extract_invoice_data",
+            "displayName": "Extract invoice data out of PDF",
+            "description": "Upload your PDF here and you will immediatly get the extracted payment details such as IBAN,BIC,SWIFT, reason for payment and amount returned as JSON.",
+            "prompt": "Extrahiere IBAN, BIC, Verwendungszweck und Betrag aus dem folgenden Text und gib das Ergebnis als JSON zurück:"
+        },
+        {
+            "title": "HR",
+            "category": "data extraction",
+            "name": "extract_applicant_data",
+            "displayName": "Extract applicant data out of PDF",
+            "description": "Upload your PDF here and you will immediatly get the applicant details such as full name, earliest possible starting date, desired salary and most important skills returned as JSON.",
+            "prompt": "Extrahiere Vor- und Nachname, frühester Startzeitpunkt, Wunschgehalt und wichtigste Fähigkeiten aus dem folgenden Text und gib das Ergebnis als JSON zurück:"
+        },
+        {
+            "title": "Real estate",
+            "category": "data extraction",
+            "name": "extract_realestate_data",
+            "displayName": "Extract real estate data out of PDF",
+            "description": "Upload your PDF here and you will immediatly get the real estate details such as location, address, size, buying type (rent or buy) and condition returned as JSON.",
+            "prompt": "Extrahiere Ort, Adresse, Größe, Kaufart (Kaufen oder Mieten), Objektzustand und den Kauf oder Mietpreis aus dem folgenden Text und gib das Ergebnis als JSON zurück:"
+        }       
+    ],
+    "pdf_editing": [
+        {
+            "title": "Spelling",
+            "category": "text editing",
+            "name": "fix_spelling",
+            "displayName": "Fix Spelling",
+            "description": "Upload your PDF here and you'll get immediatly a corrected version back, that has been checked for spelling errors.",
+            "prompt": "Korrigiere alle Rechtschreibfehler in dem folgenden Text:"
+        },
+        {
+            "title": "Rewriting",
+            "category": "text editing",
+            "name": "rewrite_text",
+            "displayName": "Rewrite Text",
+            "description": "Upload your PDF here and you'll get immediatly a rewritten version back, that is easier to read.",
+            "prompt": "Schreibe den folgenden Text um, so dass er besser verständlich und einfacher zu lesen ist. Der Flesch-Reading-Ease-Score sollte mindestens bei 60 sein:"
+        }
+    ]
+}
