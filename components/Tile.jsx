@@ -85,7 +85,7 @@ export default function Tile({ displayName, title, category, prompt, buttonText,
     }
 
     return (
-        <Card className="w-[200px] m-5">
+        <Card className="w-[150px] md:w-[200px] m-5">
             <CardHeader>
                 <CardTitle>{title}</CardTitle>
                 <CardDescription>{category}</CardDescription>

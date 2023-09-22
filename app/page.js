@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <div>
         <div className='flex m-3 md:m-5'>
-          <div className='flex items-center max-w-[8rem] sm:max-w-[30rem]'>
+          <div className='flex items-center max-w-[8rem] sm:max-w-[15rem]'>
             <h3 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-4xl">
               Awesome data extraction from your PDF files.
             </h3>
@@ -28,7 +28,7 @@ export default function Home() {
           <div className='mx-3 md:mx-8'>
             <Separator orientation="vertical" />
           </div>
-          <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'>
+          <div className='grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-evenly'>
             {
               apps.data_extraction.map(app =>
                 <Tile key={app.name}
