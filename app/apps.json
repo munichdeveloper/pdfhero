@@ -17,6 +17,14 @@
             "prompt": "Extrahiere Vor- und Nachname, frühester Startzeitpunkt, Wunschgehalt und wichtigste Fähigkeiten aus dem folgenden Text und gib das Ergebnis als JSON zurück:"
         },
         {
+            "title": "HR",
+            "category": "data extraction",
+            "name": "extract_job_ad_data",
+            "displayName": "Extract job ad data out of PDF",
+            "description": "Upload your PDF here and you will immediatly get the job ad details such as job description, earliest possible starting date, salary or salary range and required (and nice to have) skills returned as JSON.",
+            "prompt": "Extrahiere Stellenbeschreibung, frühester Startzeitpunkt, Gehalt oder Gehaltsspanne, wichtigste und optionale Fähigkeiten aus dem folgenden Text und gib das Ergebnis als JSON zurück:"
+        },
+        {
             "title": "Real estate",
             "category": "data extraction",
             "name": "extract_realestate_data",
